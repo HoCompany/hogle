@@ -7,5 +7,8 @@
     android:keyTextColor="@color/keyboardText"
     android:keyBackground="@drawable/key_background"
     android:background="@android:color/white">
+    <!-- keyTextColor : 키보드의 텍스트 색. -->
+    <!-- keyBackground : 키 버튼의 배경 색. -->
+    <!-- background : 키보드뷰의 제일 뒷 배경 색. 각 키버튼들에게 가려져서 경계선 부분만 나타난다. 즉 키 사이사이의 선 색이됨. -->
 
 </android.inputmethodservice.KeyboardView>

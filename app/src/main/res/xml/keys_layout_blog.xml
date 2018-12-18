@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyWidth="10%p"
-    android:horizontalGap="3px"
+    android:horizontalGap="10px"
     android:verticalGap="3px"
     android:keyHeight="60dp"
     android:keyTextColor="@color/colorAccent"
     android:keyBackground="@color/colorPrimaryDark"
     >
+    <!-- 여기의 keyTextColor, keyBackground 는 영향을 미치지 않는다. keyboard_view의 값들이 영향을 줌. -->
     <Row>
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
         <Key android:codes="50" android:keyLabel="2"/>
